@@ -1,3 +1,7 @@
+
+<img src="./tagarellaGithub.png" alt="Texto Alternativo" width="7000">
+
+
 # Tagarella ChatApp
 
 Tagarella ChatApp é um aplicativo de chat em tempo real, desenvolvido com ReactJS, Tailwind CSS, JavaScript, MongoDB, Cloudinary, Axios e Socket.io. Com ele, você pode se cadastrar rapidamente e conversar com outras pessoas que estejam online, além de compartilhar fotos diretamente pelo chat.

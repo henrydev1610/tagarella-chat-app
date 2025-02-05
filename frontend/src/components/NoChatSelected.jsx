@@ -16,7 +16,7 @@ const NoChatSelected = () => {
           </div>
         </div>
 
-        {/* Welcome Text */}
+        {/* texto de boas vindas */}
         <h2 className="text-2xl font-bold">Bem vindo ao Tgarella!</h2>
         <p className="text-base-content/60">
           Selecione um chat para começar a conversar
