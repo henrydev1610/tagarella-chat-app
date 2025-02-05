@@ -31,8 +31,8 @@ const LoginPage = () => {
               >
                 <MessageSquare className="w-6 h-6 text-primary" />
               </div>
-              <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
-              <p className="text-base-content/60">Sign in to your account</p>
+              <h1 className="text-2xl font-bold mt-2">Bem vindo de novo!</h1>
+              <p className="text-base-content/60">Faça o login para entrear na sua conta!</p>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const LoginPage = () => {
                 <input
                   type="email"
                   className={`input input-bordered w-full pl-10`}
-                  placeholder="you@example.com"
+                  placeholder="email@example.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
@@ -58,7 +58,7 @@ const LoginPage = () => {
 
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-medium">Password</span>
+                <span className="label-text font-medium">Senha</span>
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -99,9 +99,9 @@ const LoginPage = () => {
 
           <div className="text-center">
             <p className="text-base-content/60">
-              Don&apos;t have an account?{" "}
+              Não tem uma conta? {" "}
               <Link to="/signup" className="link link-primary">
-                Create account
+                Craiar uma conta
               </Link>
             </p>
           </div>
