@@ -19,7 +19,7 @@ const NoChatSelected = () => {
         {/* Welcome Text */}
         <h2 className="text-2xl font-bold">Bem vindo ao Tgarella!</h2>
         <p className="text-base-content/60">
-          selecione um chat para começar a conversar
+          Selecione um chat para começar a conversar
         </p>
       </div>
     </div>

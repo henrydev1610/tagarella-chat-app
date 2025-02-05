@@ -36,7 +36,7 @@ const Sidebar = () => {
               onChange={(e) => setShowOnlineOnly(e.target.checked)}
               className="checkbox checkbox-sm"
             />
-            <span className="text-sm">Apenas contatos onnline</span>
+            <span className="text-sm">Apenas contatos online</span>
           </label>
           <span className="text-xs text-zinc-500">({onlineUsers.length - 1} online)</span>
         </div>
@@ -78,7 +78,7 @@ const Sidebar = () => {
         ))}
 
         {filteredUsers.length === 0 && (
-          <div className="text-center text-zinc-500 py-4">sem usuários online</div>
+          <div className="text-center text-zinc-500 py-4">Sem usuários online</div>
         )}
       </div>
     </aside>
