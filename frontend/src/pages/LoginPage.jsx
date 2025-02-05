@@ -89,10 +89,10 @@ const LoginPage = () => {
               {isLoggingIn ? (
                 <>
                   <Loader2 className="h-5 w-5 animate-spin" />
-                  Loading...
+                  Carregando...
                 </>
               ) : (
-                "Sign in"
+                "Logar"
               )}
             </button>
           </form>
@@ -101,7 +101,7 @@ const LoginPage = () => {
             <p className="text-base-content/60">
               Não tem uma conta? {" "}
               <Link to="/signup" className="link link-primary">
-                Craiar uma conta
+                Criar uma conta
               </Link>
             </p>
           </div>
@@ -110,8 +110,8 @@ const LoginPage = () => {
 
       {/* Right Side - Image/Pattern */}
       <AuthImagePattern
-        title={"Welcome back!"}
-        subtitle={"Sign in to continue your conversations and catch up with your messages."}
+        title={"bem Vindo de volta!"}
+        subtitle={" Faça o login para entrar na sua conta!"}
       />
     </div>
   );
